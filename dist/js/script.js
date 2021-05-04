@@ -37,9 +37,9 @@ window.addEventListener('DOMContentLoaded', () => {
 
           let icon;
           if (item.sex === 'male') {
-            icon = 'icons/mars.png';
+            icon = 'img/mars.png';
           } else {
-            icon = 'icons/female.png';
+            icon = 'img/female.png';
           }
 
           card.innerHTML = `

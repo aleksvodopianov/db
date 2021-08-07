@@ -22,7 +22,7 @@ testWebP(function (support) {
 window.addEventListener('DOMContentLoaded', () => {
   function req() {
     const request = new XMLHttpRequest();
-    request.open('GET', 'http://localhost:6060/people');
+    request.open('GET', 'http://localhost:3000/people');
     request.setRequestHeader('Content-type', 'application/json; charset=utf-8');
     request.send();
     request.addEventListener('load', function () {

@@ -1,4 +1,3 @@
-/* SCSS Compiled */
 
 /***************************************************              GENERAL RESET STYLES             ***************************************************/
 
@@ -246,10 +245,6 @@ footer {
 
 /* wrapper */
 
-body {
-  font-family: "Roboto-Regular";
-}
-
 #wrapper {
   display: block;
   position: relative;
@@ -286,30 +281,6 @@ main {
 
 aside {
   position: relative;
-}
-
-@font-face {
-  font-family: "Roboto-Regular";
-  font-display: swap;
-  src: url("../fonts/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Roboto-Thin";
-  font-display: swap;
-  src: url("../fonts/Roboto-Thin.woff") format("woff"), url("../fonts/Roboto-Thin.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Roboto-ThinItalic";
-  font-display: swap;
-  src: url("../fonts/Roboto-ThinItalic.woff") format("woff"), url("../fonts/Roboto-ThinItalic.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
 }
 
 header {

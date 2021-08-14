@@ -37,9 +37,17 @@ window.addEventListener('DOMContentLoaded', () => {
 
           let icon;
           if (item.sex === 'male') {
-            icon = 'img/mars.png';
+            if (document.querySelector('body').classList == 'webp') {
+              icon = 'img/mars.webp';
+            } else {
+              icon = 'img/mars.png';
+            }
           } else {
-            icon = 'img/female.png';
+            if (document.querySelector('body').classList == 'webp') {
+              icon = 'img/female.webp';
+            } else {
+              icon = 'img/female.png';
+            }
           }
 
           card.innerHTML = `
